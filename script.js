@@ -1,3 +1,4 @@
+/* ARRAY UND HANDLING FÜR SPEAKER / LAYER SPEAKER */
 const speakers = [
     {
         name: 'Donald J. Trump',
@@ -44,7 +45,47 @@ for (let i = 0; i < speakers.length; i++) {
     `;
 }
 
+function openLayer(index) {
+    const speaker = speakers[index];
+    const layer = document.querySelector('.outter-layer-speaker');
+    layer.classList.remove('d-none');
 
+    document.body.style.overflow = 'hidden';
+
+    layer.innerHTML = `
+        <div class="inner-layer-speaker">
+            <div class="close" onclick="closeLayer()"><img src="assets/icons/close-white.svg" alt=""></div>
+            <div class="layer-top">
+                <img src="${speaker.image}" alt="${speaker.name}">
+                <div class="layer-speaker-infos">
+                    <p class="layer-speaker-headline">${speaker.name}</p>
+                    <p class="layer-speaker-position dark-text">${speaker.position}</p>
+                </div>
+            </div>
+            <div class="layer-speaker-text">${speaker.infos}</div>
+        </div>
+    `;
+}
+
+function closeLayer() {
+    document.querySelector('.outter-layer-speaker').classList.add('d-none');
+    document.body.style.overflow = 'auto';
+}
+
+/* CLOSE LAYER BEI CLICK AUSSERHALB INNER-LAYER */ 
+document.querySelector('.outter-layer-speaker').addEventListener('click', function (event) {
+    if (!event.target.closest('.inner-layer-speaker')) {
+        closeLayer();
+    }
+});
+
+
+
+
+
+
+
+/* ARRAY EVENTS */
 const events = [
     {
         time: '9.00 UHR',
@@ -112,44 +153,34 @@ for (let i = 0; i < events.length; i++) {
 }
 
 
-// document.getElementById('redirect-button').onclick = () => {
-//     window.location.href = 'https://www.cash-online.de';
-// };
+
+
+
+
+
+
+/* HEADER NUR SICHTBAR BEI SCROLL UP */ 
+let lastScrollTop = 0;
+const header = document.querySelector('header');
+
+window.addEventListener('scroll', function () {
+    let scrollTop = window.scrollY || document.documentElement.scrollTop;
+
+    if (scrollTop > lastScrollTop) {
+        header.style.top = '-100px';
+    } else {
+        header.style.top = '0';
+    }
+
+    lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // Für Safari
+});
+
+
+
+
+
+
 
 function redirectToCash() {
     window.location.href = 'https://www.cash-online.de';
-}
-
-
-function openLayer(index) {
-    const speaker = speakers[index];
-    const layer = document.querySelector('.outter-layer-speaker');
-    layer.classList.remove('d-none');
-
-    document.body.style.overflow = 'hidden';
-
-    layer.innerHTML = `
-        <div class="inner-layer-speaker">
-            <div class="close" onclick="closeLayer()"><img src="assets/icons/close-white.svg" alt=""></div>
-            <div class="layer-top">
-                <img src="${speaker.image}" alt="${speaker.name}">
-                <div class="layer-speaker-infos">
-                    <p class="layer-speaker-headline">${speaker.name}</p>
-                    <p class="layer-speaker-position dark-text">${speaker.position}</p>
-                </div>
-            </div>
-            <div class="layer-speaker-text">${speaker.infos}</div>
-        </div>
-    `;
-}
-
-document.querySelector('.outter-layer-speaker').addEventListener('click', function (event) {
-    if (!event.target.closest('.inner-layer-speaker')) {
-        closeLayer();
-    }
-});
-
-function closeLayer() {
-    document.querySelector('.outter-layer-speaker').classList.add('d-none');
-    document.body.style.overflow = 'auto';
 }
