@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash. Digital Day 2025</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
+    
+</head>
+
+<body>
+
+    <!-- LAYER SPEAKER -->
+
+    <div class="outter-layer-speaker d-none">
+        <!-- RENDERT SPEAKER-LAYER -->
+    </div>
+
+    <!-- MAIN PAGE -->
+
+    <div class="top-slide">
+        <div class="overlay"></div>
+        <div class="partner-top">
+            <p>SPONSORED BY:</p>
+            <img src="assets/walnut1.jpg" alt="">
+            <img src="assets/aureus.jpg" alt="">
+        </div>
+        <div class="main-content">
+            <div class="main-title">
+                <img src="assets/logo2.png" alt="">
+                <div class="horizontal-line"></div>
+                <p class="dark-text">// 4. JUNI 2025</p>
+            </div>
+            
+            <div class="main-text">
+                <p>Freuen Sie sich auf spannende Live-Events für Ihren digitalen Vertriebs-Erfolg.</p> 
+                <br>
+                <p class="dark-text">Erste Infos zu unseren Top-Speakern, Themen und Zeiten folgen demnächst!</p>
+            </div>
+            <button id="redirect-button" onclick="redirectToCash()">
+                <img src="assets/icons/back-white.svg" alt="">
+                CASH-ONLINE.DE
+            </button>
+
+            <script>
+                document.getElementById('redirect-button').addEventListener('click', () => {
+                    window.location.href = 'https://www.cash-online.de';
+                    console.log('test');
+                });
+            </script>
+
+            <img class="down" src="assets/icons/down-white.svg" alt=""> 
+        </div>
+    </div>
+
+    <div class="separator"></div>
+
+    <div class="segment">
+        <div class="event-content">
+            <!-- RENDERT EVENTS -->
+        </div>
+    </div>
+
+    <div class="separator"></div>
+
+    <div class="segment segment-reverse">
+        <div class="speaker-content">
+            <div class="event-time">UNSERE SPEAKER:</div>
+            <div class="speaker-area">
+                <!-- RENDERT SPEAKER -->
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
