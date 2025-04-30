@@ -1,10 +1,10 @@
 /* ARRAY UND HANDLING FÜR SPEAKER / LAYER SPEAKER */
 const speakers = [
     {
-        name: 'Donald J. Trump',
-        position: 'CEO United States of America',
-        image: 'assets/trump.jpg',
-        infos: 'Das ist ein Text über Donald TrumpDas ist ein Text über Donald TrumpDas ist ein Text über Donald TrumpDas ist ein Text über Donald TrumpDas ist ein Text über Donald TrumpDas ist ein Text über Donald Trump',
+        name: 'Frank Rottenbacher',
+        position: 'Vorstand AfW Bundesverband Finanzdienstleistung e.V. / Going Public Akademie für Finanzberatung AG & Co. KG',
+        image: 'assets/rottenbacher.jpg',
+        infos: '',
     },
     {
         name: 'Albus Dumbledore',
@@ -21,10 +21,10 @@ const speakers = [
 
     },
     {
-        name: 'Capital Bra',
-        position: 'Capital Expert / Talahon',
-        image: 'assets/capital.jpg',
-        infos: 'Das ist ein Text über Donald TrumpDas ist ein Text über Donald TrumpDas ist ein Text über Donald TrumpDas ist ein Text über Donald TrumpDas ist ein Text über Donald TrumpDas ist ein Text über Donald Trump',
+        name: 'Tanja Schmidt',
+        position: 'Vertriebsmanagerin LV 1871',
+        image: 'assets/schmidt.jpg',
+        infos: '',
 
     }
 ];
@@ -89,11 +89,11 @@ document.querySelector('.outter-layer-speaker').addEventListener('click', functi
 const events = [
     {
         time: '9.00 UHR',
-        title: 'Wie erreiche ich 1 Million Follower in 10 Sekunden?',
-        description: 'Donald J. Trump gibt populistische Tipps und Tricks, um eine hohe Reichweite auf X zu erreichen. Wie kommen Unwahrheiten am besten zum Einsatz?',
-        speakerName: 'Donald J. Trump',
-        speakerPosition: 'CEO United States of America',
-        speakerImage: 'assets/trump.jpg'
+        title: 'Der EU AI Act – <br> Was kommt auf Vermittlerinnen und Vermittler zu?',
+        description: 'Die neue KI-Verordnung der EU verpflichtet Unternehmen mit KI-Systemen dazu, die erforderlichen KI-Kompetenzen ihrer Mitarbeitenden sicherzustellen. Doch was bedeutet das konkret für Vermittlerbetriebe?',
+        speakerName: 'Frank Rottenbacher',
+        speakerPosition: 'Vorstand AfW Bundesverband Finanzdienstleistung e.V. / Going Public Akademie für Finanzberatung AG & Co. KG',
+        speakerImage: 'assets/rottenbacher.jpg'
     },
     {
         time: '11.00 UHR',
@@ -112,12 +112,12 @@ const events = [
         speakerImage: 'assets/peppa.jpg'
     },
     {
-        time: '16.00 UHR',
-        title: 'Mach Schnapp auf dem Black Market!',
-        description: 'Der Bratan himself erklärt in 45 Minuten, wie Vertriebler auf der Straße gefährlicher wirken und so ihren Umsatz steigern können.',
-        speakerName: 'Capital Bra',
-        speakerPosition: 'Capital Expert / Talahon',
-        speakerImage: 'assets/capital.jpg'
+        time: '14.00 UHR',
+        title: 'Effizienter Beraten - mit den digitalen Tools der LV 1871',
+        description: 'Die private Altersvorsorge ist ein komplexes und beratungsintensives Thema, an dem heute kein Weg mehr vorbeiführt. Doch: Kaum jemand möchte mehr als zwei Stunden Zeit investieren, um mit einer Beraterin oder einem Berater über die Absicherung in der Rente zu sprechen. Entsprechend wichtig ist der Einsatz von digitalen Tools im Maklergeschäft. Die Angebotssoftware der LV 1871 ermöglicht unabhängigen Maklerinnen und Maklern einen schnellen und reibungslosen Prozess im Beratungsgespräch. Um die Beratung so effizient wie möglich zu gestalten, wird Tanja Schmidt Vertriebsmanagerin der LV 1871 Ihnen alles Nötige in diesem Webinar mit an die Hand geben.',
+        speakerName: 'Tanja Schmidt',
+        speakerPosition: 'Vertriebsmanagerin LV 1871',
+        speakerImage: 'assets/schmidt.jpg'
     }
 ];
 

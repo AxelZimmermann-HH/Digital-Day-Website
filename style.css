@@ -521,6 +521,11 @@ button img {
     color: white;
 }
 
+.contact-details a:hover {
+    color: #232323;
+    filter: drop-shadow(0 0 3px white);
+}
+
 @media (max-width: 1200px) {
     .partner-top {
         /* position: relative;
