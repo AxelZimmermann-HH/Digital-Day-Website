@@ -7,10 +7,10 @@ const speakers = [
         infos: '',
     },
     {
-        name: 'Albus Dumbledore',
-        position: 'Director Hogwarts School of Witchcraft and Wizardry',
-        image: 'assets/dumbledore.jpg',
-        infos: 'Das ist ein Text über Donald TrumpDas ist ein Text über Donald TrumpDas ist ein Text über Donald TrumpDas ist ein Text über Donald TrumpDas ist ein Text über Donald TrumpDas ist ein Text über Donald Trump',
+        name: 'Clemens Köbler',
+        position: 'Sales und Onboarding-Manager, Walnut',
+        image: 'assets/koebler.jpg',
+        infos: 'Clemens Köbler ist Sales und Onboarding Manager bei Walnut. Mit 20 Jahren Vertriebserfahrung und einem besonderen Gespür für die Praxis unterstützt er Finanzberater dabei, Walnut Live in ihren Arbeitsalltag zu integrieren - flexibel angepasst an ihre individuellen Bedürfnisse.',
 
     },
     {
@@ -96,12 +96,12 @@ const events = [
         speakerImage: 'assets/rottenbacher.jpg'
     },
     {
-        time: '11.00 UHR',
-        title: 'Magische Momente auf Tiktok',
-        description: 'Albus Dumbledore ist einer der Top-Influencer der Gen Z und verzaubert seine Lehrlinge mit funny content.',
-        speakerName: 'Albus Dumbledore',
-        speakerPosition: 'Director Hogwarts School of Witchcraft and Wizardry',
-        speakerImage: 'assets/dumbledore.jpg'
+        time: '10.15 UHR',
+        title: 'Vom Erstkontakt zur digitalen Zeichnung: <br>So optimieren Sie Ihre Beratung mit Walnut Live',
+        description: 'Ein Haken falsch gesetzt – und der Antrag geht zurück. Ein Tool zu viel – und der Kunde springt ab. Kommt Ihnen das bekannt vor? In diesem Webinar erfahren Sie, wie Sie mit Walnut Live den gesamten Beratungs- und Zeichnungsprozess für Privatmarktfonds digital und durchgängig abbilden: von der fehlerfreien Antragserstellung über die digitale Legitimation bis hin zur elektronischen Zeichnung – FinVermV-konform, browserbasiert und ohne Medienbrüche.',
+        speakerName: 'Clemens Köbler',
+        speakerPosition: 'Sales und Onboarding-Manager, Walnut',
+        speakerImage: 'assets/koebler.jpg'
     },
     {
         time: '14.00 UHR',

@@ -39,6 +39,10 @@ header a img {
     width: 30px;
 }
 
+header a svg {
+    width: 30px;
+}
+
 header a:hover {
     color:#04223A;
     filter: drop-shadow(0 0 3px white);
