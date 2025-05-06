@@ -573,7 +573,10 @@ button img {
         gap: 0px;
     }
     header a {
-        font-size: 18px;
+        font-size: 16px;
+    }
+    .layer-top {
+        flex-direction: column;
     }
 }
 
