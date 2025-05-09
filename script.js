@@ -23,7 +23,7 @@ const speakers = [
     {
         name: 'Tanja Schmidt',
         position: 'Vertriebsmanagerin, LV 1871',
-        image: 'assets/schmidt.jpg',
+        image: 'assets/schmidt2.jpg',
         infos: '',
 
     }
@@ -93,7 +93,8 @@ const events = [
         description: 'Die neue KI-Verordnung der EU verpflichtet Unternehmen mit KI-Systemen dazu, die erforderlichen KI-Kompetenzen ihrer Mitarbeitenden sicherzustellen. Doch was bedeutet das konkret für Vermittlerbetriebe?',
         speakerName: 'Frank Rottenbacher',
         speakerPosition: 'Vorstand AfW Bundesverband Finanzdienstleistung e.V. / Going Public Akademie für Finanzberatung AG & Co. KG',
-        speakerImage: 'assets/rottenbacher.jpg'
+        speakerImage: 'assets/rottenbacher.jpg',
+        link: 'https://cash.clickmeeting.com/der-eu-ai-act-was-kommt-auf-vermittlerinnen-und-vermittler-zu-/register'
     },
     {
         time: '10.15 UHR',
@@ -101,7 +102,8 @@ const events = [
         description: 'Ein Haken falsch gesetzt – und der Antrag geht zurück. Ein Tool zu viel – und der Kunde springt ab. Kommt Ihnen das bekannt vor? In diesem Webinar erfahren Sie, wie Sie mit Walnut Live den gesamten Beratungs- und Zeichnungsprozess für Privatmarktfonds digital und durchgängig abbilden: von der fehlerfreien Antragserstellung über die digitale Legitimation bis hin zur elektronischen Zeichnung – FinVermV-konform, browserbasiert und ohne Medienbrüche.',
         speakerName: 'Clemens Köbler',
         speakerPosition: 'Sales und Onboarding-Manager, Walnut',
-        speakerImage: 'assets/koebler.jpg'
+        speakerImage: 'assets/koebler.jpg',
+        link: 'https://cash.clickmeeting.com/vom-erstkontakt-zur-digitalen-zeichnung-so-optimieren-sie-ihre-beratung-mit-walnut-live/register'
     },
     {
         time: '11.30 UHR',
@@ -109,7 +111,8 @@ const events = [
         description: 'Gold boomt aktuell: Aber warum haben die Weißmetalle ein enormes Wachstumspotenzial? Die Edelmetallquote der Deutschen liegt bei unter drei Prozent und bietet ein enormes Umsatzpotenzial. Lernen Sie die USPs der Aureus kennen – mit einfacher digitaler Abwicklung.',
         speakerName: 'Frank Neumann',
         speakerPosition: 'Vertriebsdirektor, AUREUS Golddepot GmbH',
-        speakerImage: 'assets/neumann.jpg'
+        speakerImage: 'assets/neumann.jpg',
+        link: 'https://cash.clickmeeting.com/die-zukunftschance-silber-platin-palladium/register'
     },
     {
         time: '14.00 UHR',
@@ -117,7 +120,8 @@ const events = [
         description: 'Die private Altersvorsorge ist ein komplexes und beratungsintensives Thema, an dem heute kein Weg mehr vorbeiführt. Doch: Kaum jemand möchte mehr als zwei Stunden Zeit investieren, um mit einer Beraterin oder einem Berater über die Absicherung in der Rente zu sprechen. Entsprechend wichtig ist der Einsatz von digitalen Tools im Maklergeschäft. Die Angebotssoftware der LV 1871 ermöglicht unabhängigen Maklerinnen und Maklern einen schnellen und reibungslosen Prozess im Beratungsgespräch. Um die Beratung so effizient wie möglich zu gestalten, wird Tanja Schmidt Vertriebsmanagerin der LV 1871 Ihnen alles Nötige in diesem Webinar mit an die Hand geben.',
         speakerName: 'Tanja Schmidt',
         speakerPosition: 'Vertriebsmanagerin LV 1871',
-        speakerImage: 'assets/schmidt.jpg'
+        speakerImage: 'assets/schmidt2.jpg',
+        link: 'https://cash.clickmeeting.com/effizienter-beraten-mit-den-digitalen-tools-der-lv-1871/register'
     }
 ];
 
@@ -141,10 +145,12 @@ for (let i = 0; i < events.length; i++) {
                         <p class="event-speaker-headline">${event.speakerName}</p>
                         <p class="event-speaker-position dark-text">${event.speakerPosition}</p>
                     </div>
-                    <button class="signup">           
-                        JETZT ANMELDEN
-                        <img src="assets/icons/forward-white.svg" alt="">
-                    </button>
+                    <a href="${event.link}" target="_blank">
+                        <button class="signup">           
+                            JETZT ANMELDEN
+                            <img src="assets/icons/forward-white.svg" alt="">
+                        </button>
+                    </a>
                     <img class="portrait" src="${event.speakerImage}" alt="${event.speakerName}">
                 </div>
             </div>
