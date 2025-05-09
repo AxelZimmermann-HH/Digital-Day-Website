@@ -14,15 +14,15 @@ const speakers = [
 
     },
     {
-        name: 'Peppa Pig',
-        position: 'Marketing Professional',
-        image: 'assets/peppa.jpg',
-        infos: 'Das ist ein Text über Donald TrumpDas ist ein Text über Donald TrumpDas ist ein Text über Donald TrumpDas ist ein Text über Donald TrumpDas ist ein Text über Donald TrumpDas ist ein Text über Donald Trump',
+        name: 'Frank Neumann',
+        position: 'Vertriebsdirektor, AUREUS Golddepot GmbH',
+        image: 'assets/neumann.jpg',
+        infos: 'Frank Neumann ist seit mehr als 40 Jahren in der Finanzbranche tätig. Er gründete 2010 mit der Exchange AG die Aureus Golddepot GmbH. Herr Neumann ist maßgeblich beteiligt an der Entwicklung der Produktlösungen der Aureus, sein Motto ist: Aus der Praxis für die Praxis!',
 
     },
     {
         name: 'Tanja Schmidt',
-        position: 'Vertriebsmanagerin LV 1871',
+        position: 'Vertriebsmanagerin, LV 1871',
         image: 'assets/schmidt.jpg',
         infos: '',
 
@@ -104,12 +104,12 @@ const events = [
         speakerImage: 'assets/koebler.jpg'
     },
     {
-        time: '14.00 UHR',
-        title: 'Saugeile Sales-Tricks!',
-        description: 'Peppa Pig fühlt sich sauwohl in ihrem Gebiet Marketing & Sales. Das macht sich am Umsatz erkennbar.',
-        speakerName: 'Peppa Pig',
-        speakerPosition: 'Marketing Professional',
-        speakerImage: 'assets/peppa.jpg'
+        time: '11.30 UHR',
+        title: 'Die Zukunftschance: Silber - Platin - Palladium',
+        description: 'Gold boomt aktuell: Aber warum haben die Weißmetalle ein enormes Wachstumspotenzial? Die Edelmetallquote der Deutschen liegt bei unter drei Prozent und bietet ein enormes Umsatzpotenzial. Lernen Sie die USPs der Aureus kennen – mit einfacher digitaler Abwicklung.',
+        speakerName: 'Frank Neumann',
+        speakerPosition: 'Vertriebsdirektor, AUREUS Golddepot GmbH',
+        speakerImage: 'assets/neumann.jpg'
     },
     {
         time: '14.00 UHR',
