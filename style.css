@@ -284,7 +284,48 @@ button img {
     color: white;
     font-size: 24px;
     padding: 10px 20px;
-    
+    position: relative;
+}
+
+.idd {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 100%;
+    background-color: rgba(108,140,159,0.8);
+    border-radius: 0 30px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Orbitron';
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .idd {
+        display: none;
+    }
+}
+
+.idd-mobile {
+    width: 100%;
+    background-color: rgba(108,140,159,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Orbitron';
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+@media (min-width: 800px) {
+    .idd-mobile {
+        display: none;
+    }
 }
 
 .event-description {

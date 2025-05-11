@@ -94,7 +94,8 @@ const events = [
         speakerName: 'Frank Rottenbacher',
         speakerPosition: 'Vorstand AfW Bundesverband Finanzdienstleistung e.V. / Going Public Akademie für Finanzberatung AG & Co. KG',
         speakerImage: 'assets/rottenbacher.jpg',
-        link: 'https://cash.clickmeeting.com/der-eu-ai-act-was-kommt-auf-vermittlerinnen-und-vermittler-zu-/register'
+        link: 'https://cash.clickmeeting.com/der-eu-ai-act-was-kommt-auf-vermittlerinnen-und-vermittler-zu-/register',
+        idd: '15'
     },
     {
         time: '10.15 UHR',
@@ -107,21 +108,23 @@ const events = [
     },
     {
         time: '11.30 UHR',
-        title: 'Die Zukunftschance: Silber - Platin - Palladium',
+        title: 'Die Zukunftschance: <br>Silber - Platin - Palladium',
         description: 'Gold boomt aktuell: Aber warum haben die Weißmetalle ein enormes Wachstumspotenzial? Die Edelmetallquote der Deutschen liegt bei unter drei Prozent und bietet ein enormes Umsatzpotenzial. Lernen Sie die USPs der Aureus kennen – mit einfacher digitaler Abwicklung.',
         speakerName: 'Frank Neumann',
         speakerPosition: 'Vertriebsdirektor, AUREUS Golddepot GmbH',
         speakerImage: 'assets/neumann.jpg',
-        link: 'https://cash.clickmeeting.com/die-zukunftschance-silber-platin-palladium/register'
+        link: 'https://cash.clickmeeting.com/die-zukunftschance-silber-platin-palladium/register',
+        idd: '25'
     },
     {
         time: '14.00 UHR',
-        title: 'Effizienter Beraten - mit den digitalen Tools der LV 1871',
+        title: 'Effizienter Beraten - <br>mit den digitalen Tools der LV 1871',
         description: 'Die private Altersvorsorge ist ein komplexes und beratungsintensives Thema, an dem heute kein Weg mehr vorbeiführt. Doch: Kaum jemand möchte mehr als zwei Stunden Zeit investieren, um mit einer Beraterin oder einem Berater über die Absicherung in der Rente zu sprechen. Entsprechend wichtig ist der Einsatz von digitalen Tools im Maklergeschäft. Die Angebotssoftware der LV 1871 ermöglicht unabhängigen Maklerinnen und Maklern einen schnellen und reibungslosen Prozess im Beratungsgespräch. Um die Beratung so effizient wie möglich zu gestalten, wird Tanja Schmidt Vertriebsmanagerin der LV 1871 Ihnen alles Nötige in diesem Webinar mit an die Hand geben.',
         speakerName: 'Tanja Schmidt',
         speakerPosition: 'Vertriebsmanagerin LV 1871',
         speakerImage: 'assets/schmidt2.jpg',
-        link: 'https://cash.clickmeeting.com/effizienter-beraten-mit-den-digitalen-tools-der-lv-1871/register'
+        link: 'https://cash.clickmeeting.com/effizienter-beraten-mit-den-digitalen-tools-der-lv-1871/register',
+        idd: '35'
     }
 ];
 
@@ -133,7 +136,11 @@ for (let i = 0; i < events.length; i++) {
         <div class="event">
             <div class="event-time">${event.time}</div>
             <div class="event-infos">
-                <div class="event-title">${event.title}</div>
+                <div class="event-title">
+                    ${event.title}
+                    ${event.idd ? `<div class="idd">${event.idd} IDD-Minuten</div>` : ''}
+                </div>
+                ${event.idd ? `<div class="idd-mobile">${event.idd} IDD-Minuten</div>` : ''}
                 <div class="separator" style="height: 2px"></div>
                 <div class="event-description">
                     ${event.description}
