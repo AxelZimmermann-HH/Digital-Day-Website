@@ -1,17 +1,10 @@
 /* ARRAY UND HANDLING FÜR SPEAKER / LAYER SPEAKER */
 const speakers = [
     {
-        name: 'Frank Rottenbacher',
-        position: 'Vorstand AfW Bundesverband Finanzdienstleistung e.V. / Going Public Akademie für Finanzberatung AG & Co. KG',
-        image: 'assets/rottenbacher.jpg',
+        name: 'Diana Sprung',
+        position: 'Teamleiterin Kundenberatung, Going Public',
+        image: 'assets/sprung.jpg',
         infos: '',
-    },
-    {
-        name: 'Clemens Köbler',
-        position: 'Sales und Onboarding-Manager, Walnut',
-        image: 'assets/koebler.jpg',
-        infos: 'Clemens Köbler ist Sales und Onboarding Manager bei Walnut. Mit 20 Jahren Vertriebserfahrung und einem besonderen Gespür für die Praxis unterstützt er Finanzberater dabei, Walnut Live in ihren Arbeitsalltag zu integrieren - flexibel angepasst an ihre individuellen Bedürfnisse.',
-
     },
     {
         name: 'Frank Neumann',
@@ -21,10 +14,10 @@ const speakers = [
 
     },
     {
-        name: 'Tanja Schmidt',
-        position: 'Vertriebsmanagerin, LV 1871',
-        image: 'assets/schmidt2.jpg',
-        infos: '',
+        name: 'Sebastian Plaza',
+        position: 'Head of Sales Management, blau direkt',
+        image: 'assets/plaza.jpg',
+        infos: 'Sebastian Plaza ist seit knapp 18 Jahren in der Branche bei blau direkt aktiv. Er bringt umfassende Praxiserfahrung aus dem Makleralltag und Vertrieb mit.',
 
     }
 ];
@@ -89,43 +82,33 @@ document.querySelector('.outter-layer-speaker').addEventListener('click', functi
 const events = [
     {
         time: '9.00 UHR',
-        title: 'Der EU AI Act – <br> Was kommt auf Vermittlerinnen und Vermittler zu?',
-        description: 'Die neue KI-Verordnung der EU verpflichtet Unternehmen mit KI-Systemen dazu, die erforderlichen KI-Kompetenzen ihrer Mitarbeitenden sicherzustellen. Doch was bedeutet das konkret für Vermittlerbetriebe?',
-        speakerName: 'Frank Rottenbacher',
-        speakerPosition: 'Vorstand AfW Bundesverband Finanzdienstleistung e.V. / Going Public Akademie für Finanzberatung AG & Co. KG',
-        speakerImage: 'assets/rottenbacher.jpg',
-        link: 'https://cash.clickmeeting.com/der-eu-ai-act-was-kommt-auf-vermittlerinnen-und-vermittler-zu-/register',
-        idd: '15'
-    },
-    {
-        time: '10.15 UHR',
-        title: 'Vom Erstkontakt zur digitalen Zeichnung: <br>So optimieren Sie Ihre Beratung mit Walnut Live',
-        description: 'Ein Haken falsch gesetzt – und der Antrag geht zurück. Ein Tool zu viel – und der Kunde springt ab. Kommt Ihnen das bekannt vor? In diesem Webinar erfahren Sie, wie Sie mit Walnut Live den gesamten Beratungs- und Zeichnungsprozess für Privatmarktfonds digital und durchgängig abbilden: von der fehlerfreien Antragserstellung über die digitale Legitimation bis hin zur elektronischen Zeichnung – FinVermV-konform, browserbasiert und ohne Medienbrüche.',
-        speakerName: 'Clemens Köbler',
-        speakerPosition: 'Sales und Onboarding-Manager, Walnut',
-        speakerImage: 'assets/koebler.jpg',
-        link: 'https://cash.clickmeeting.com/vom-erstkontakt-zur-digitalen-zeichnung-so-optimieren-sie-ihre-beratung-mit-walnut-live/register'
-    },
-    {
-        time: '11.30 UHR',
-        title: 'Die Zukunftschance: <br>Silber - Platin - Palladium',
-        description: 'Gold boomt aktuell: Aber warum haben die Weißmetalle ein enormes Wachstumspotenzial? Die Edelmetallquote der Deutschen liegt bei unter drei Prozent und bietet ein enormes Umsatzpotenzial. Lernen Sie die USPs der Aureus kennen – mit einfacher digitaler Abwicklung.',
-        speakerName: 'Frank Neumann',
-        speakerPosition: 'Vertriebsdirektor, AUREUS Golddepot GmbH',
-        speakerImage: 'assets/neumann.jpg',
-        link: 'https://cash.clickmeeting.com/die-zukunftschance-silber-platin-palladium/register',
+        title: 'Vom Wissen zum Können: Wie KI Weiterbildung<br>in der Finanzbranche verändert',
+        description: 'Die Teilnehmenden verstehen, wie KI Lernen und Kompetenzaufbau verändert – und wie sie KI sinnvoll, kritisch und regulatorisch verantwortbar in Weiterbildung und Beratungstraining einsetzen können.',
+        speakerName: 'Diana Sprung',
+        speakerPosition: 'Teamleiterin Kundenberatung, Going Public',
+        speakerImage: 'assets/sprung.jpg',
+        link: 'https://cash.clickmeeting.com/vom-wissen-zum-konnen-wie-ki-weiterbildung-in-der-finanzbranche-verandert/register',
         idd: '25'
     },
     {
-        time: '14.00 UHR',
-        title: 'Effizienter Beraten - <br>mit den digitalen Tools der LV 1871',
-        description: 'Die private Altersvorsorge ist ein komplexes und beratungsintensives Thema, an dem heute kein Weg mehr vorbeiführt. Doch: Kaum jemand möchte mehr als zwei Stunden Zeit investieren, um mit einer Beraterin oder einem Berater über die Absicherung in der Rente zu sprechen. Entsprechend wichtig ist der Einsatz von digitalen Tools im Maklergeschäft. Die Angebotssoftware der LV 1871 ermöglicht unabhängigen Maklerinnen und Maklern einen schnellen und reibungslosen Prozess im Beratungsgespräch. Um die Beratung so effizient wie möglich zu gestalten, wird Tanja Schmidt Vertriebsmanagerin der LV 1871 Ihnen alles Nötige in diesem Webinar mit an die Hand geben.',
-        speakerName: 'Tanja Schmidt',
-        speakerPosition: 'Vertriebsmanagerin LV 1871',
-        speakerImage: 'assets/schmidt2.jpg',
-        link: 'https://cash.clickmeeting.com/effizienter-beraten-mit-den-digitalen-tools-der-lv-1871/register',
-        idd: '35'
-    }
+        time: '10.15 UHR',
+        title: 'Edelmetalle im Trend der Zeit',
+        description: 'Holen Sie sich wichtige Informationen, warum Edelmetalle in der aktuellen Zeit elementar sind, und welche Edelmetalle am besten performen werden und warum! Erfahren Sie welche umfangreichen und Einkaufsvorteile, Sicherheits-, Service Leistungen und Einkaufsvorteile. Aureus bietet.',
+        speakerName: 'Frank Neumann',
+        speakerPosition: 'Vertriebsdirektor, AUREUS Golddepot GmbH',
+        speakerImage: 'assets/neumann.jpg',
+        link: 'https://cash.clickmeeting.com/edelmetalle-im-trend-der-zeit/register',
+    },
+    {
+        time: '11.30 UHR',
+        title: 'Vom Software-Flickenteppich zum <br>KI-gestützten System: <br>So arbeiten erfolgreiche Makler heute',
+        description: 'Im Webinar zeigen wir, warum viele Makler trotz guter Tools im Alltag Zeit verlieren und wie man das mit einem zentralen System spürbar vereinfacht. Wie sieht eine medienbruchfreie Customer Journey im Maklerbüro aus – vom Erstkontakt bis zur laufenden Betreuung. Wie und wo kann KI entlang des gesamten Beratungsprozesses unterstützen, z. B. bei Recherche, Dokumentation und Kundenanfragen. An praxisnahen Beispielen zeigen wir, wie mehr Effizienz, bessere Beratung und stärkere Kundenbindung entstehen. ',
+        speakerName: 'Sebastian Plaza',
+        speakerPosition: 'Head of Sales Management, blau direkt',
+        speakerImage: 'assets/plaza.jpg',
+        link: 'https://cash.clickmeeting.com/vom-software-flickenteppich-zum-ki-gestutzten-system-so-arbeiten-erfolgreiche-makler-heute/register',
+        idd: 'XX'
+    },
 ];
 
 const eventContent = document.querySelector('.event-content');
