@@ -93,7 +93,7 @@ const events = [
     {
         time: '10.15 UHR',
         title: 'Edelmetalle im Trend der Zeit',
-        description: 'Holen Sie sich wichtige Informationen, warum Edelmetalle in der aktuellen Zeit elementar sind, und welche Edelmetalle am besten performen werden und warum! Erfahren Sie welche umfangreichen und Einkaufsvorteile, Sicherheits-, Service Leistungen und Einkaufsvorteile. Aureus bietet.',
+        description: 'Holen Sie sich wichtige Informationen, warum Edelmetalle in der aktuellen Zeit elementar sind, und welche Edelmetalle am besten performen werden und warum! Erfahren Sie mehr über die umfangreichen Sicherheits- und Serviceleistungen sowie die Einkaufsvorteile, die Aureus bietet.',
         speakerName: 'Frank Neumann',
         speakerPosition: 'Vertriebsdirektor, AUREUS Golddepot GmbH',
         speakerImage: 'assets/neumann.jpg',
@@ -107,7 +107,7 @@ const events = [
         speakerPosition: 'Head of Sales Management, blau direkt',
         speakerImage: 'assets/plaza.jpg',
         link: 'https://cash.clickmeeting.com/vom-software-flickenteppich-zum-ki-gestutzten-system-so-arbeiten-erfolgreiche-makler-heute/register',
-        idd: 'XX'
+        idd: '20'
     },
 ];
 
